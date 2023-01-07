@@ -1,0 +1,57 @@
+section {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-height: 0px;
+    padding-top: 100px;
+    background: #fbfbfb;
+}
+
+.curve {
+    position: absolute;
+    height: 250px;
+    width: 100%;
+    bottom: 0;
+    margin-top: -10%;
+
+}
+
+.curve::before {
+    content: '';
+    display: flex;
+    position: absolute;
+    
+ 
+    background-color:transparent;
+    flex-direction: column;
+    align-content: stretch;
+    justify-content: center;
+    align-items: baseline;
+    margin-top: 5%;
+    margin-left: 80%;
+    flex-wrap: wrap;
+    border-top: 350px solid transparent;
+    border-right: 300px solid #33ca93;
+    border-bottom: 350px solid transparent;
+  
+    
+}
+.curve::after {
+    content: '';
+    display: flex;
+    position: relative;
+    background-color: transparent;
+    flex-direction: column;
+    align-content: stretch;
+    justify-content: center;
+    align-items: baseline;
+    margin-top: 5%;
+    margin-left: 0%;
+    flex-wrap: wrap;
+    border-top: 350px solid transparent;
+    border-left: 300px solid #33ca93;
+    border-bottom: 350px solid transparent;
+  
+    
+}
+
